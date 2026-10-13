@@ -66,3 +66,10 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# CMake build directories and generated files
+/build/
+/cmake-build-*/
+
+# CLion local project metadata
+.idea/
